@@ -1,0 +1,3 @@
+magicui.design : animated components
+csspeeper : chrome extension for extracting assets/code
+uiverse.io : for ready-made ui components

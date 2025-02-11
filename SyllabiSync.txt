@@ -1,0 +1,55 @@
+1. Understanding the Core Requirements
+Your portal should: 
+✅ Allow creation, sharing, and updating of model curricula.
+✅ Be accessible to all AICTE-approved institutions.
+✅ Ensure standardization & quality control in education.
+
+
+2. Breaking Down the Features
+🔹 User Roles
+Admin: Can manage all curricula, approve updates, and add/remove institutions.
+Institutes (College Reps/Faculty): Can propose, edit, and view curricula.
+Students/Public: Can only view and download the curriculum.
+
+🔹 Core Functionalities
+✔️ User Authentication (Login/Register) 
+✔️ Dashboard (Different for Admin & Institutes) 
+✔️ Curriculum Management (CRUD for Subjects, Syllabi, PDFs, etc.) 
+✔️ Approval System (Admins approve curriculum updates) 
+✔️ Search & Filter by Course, Branch, and Institute 
+✔️ File Uploads (PDFs, DOCs, etc.) 
+✔️ Version Control (Track changes to curricula over time)
+
+
+3. Tech Stack & Implementation
+Feature                	Tech
+UI (Frontend)	        HTML + TailwindCSS
+Server-side Logic	PHP
+Database		MySQL (For storing user data, curricula, approvals, etc.)
+File Handling		PHP (for uploading & retrieving docs/PDFs)
+
+
+4. Development Roadmap
+🔰 Phase 1: Basic Setup
+✅ Set up TailwindCSS & basic UI components.
+✅ Create PHP backend with database connection.
+✅ Implement User Authentication (Login, Register, Roles).
+
+🔰 Phase 2: Curriculum Management
+✅ Create forms for adding courses & subjects.
+✅ Implement CRUD (Create, Read, Update, Delete) for curricula.
+✅ Add file upload support for PDFs and syllabus documents.
+
+🔰 Phase 3: Approval System & Search
+✅ Create an approval workflow for Admins.
+✅ Implement search & filtering based on course, branch, and institute.
+
+🔰 Phase 4: Testing & Deployment
+✅ Test all functionalities.
+✅ Deploy on XAMPP/LAMP locally, then move to live hosting if needed.
+
+5. Next Steps
+👉 Set up your database schema (Users, Courses, Subjects, Versions, Approvals).
+👉 Start with a basic login system in PHP.
+👉 Design the dashboard UI with TailwindCSS.
+👉 Implement CRUD for curricula.

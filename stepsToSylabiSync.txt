@@ -1,0 +1,53 @@
+📌 Step 1: Create a Project Folder & Basic Setup
+🛠️ Tools to Install (Everyone)
+- VS Code (or any code editor)
+- XAMPP (For running PHP and MySQL locally)
+- Git & GitHub (For version control)
+
+Folder Structure basic
+project-folder/
+│── index.php         # Homepage
+│── dashboard.php     # Main user dashboard
+│── login.php         # User authentication
+│── register.php      # Signup page
+│── config.php        # Database connection
+│── assets/           # CSS, TailwindCSS, images
+│── uploads/          # PDF/doc storage
+│── db/		          # database files
+│── stepsToSyllabiSync.txt          #info to create project
+└── SyllabiSync.txt             #about project
+
+
+Step 3: Set Up TailwindCSS & PHP
+1️⃣ Initialize TailwindCSS (Frontend Team)
+Add this to your <head> in index.php:
+		<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+2️⃣ Set Up PHP & Database Connection (Backend Team)
+Create a new file config.php inside the project folder:
+    <?php
+        $host = "localhost";
+        $user = "root";
+        $pass = "";
+        $dbname = "aicte_portal";
+
+        $conn = new mysqli($host, $user, $pass, $dbname);
+
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+    ?>
+
+
+Step 4: Create a GitHub Repo & Push the Code
+1️⃣ One team member creates a GitHub repository.
+2️⃣ Everyone clones the repo using:
+		git clone <repo_link>
+3️⃣ Use Git for version control (git pull, git commit -m "message", git push).
+
+📌 Step 5: First Task – Implement Login System
+Start small! Build a simple login/register system using PHP & MySQL.
+🔹 Day 1: Setup HTML & TailwindCSS UI for login page.
+🔹 Day 2: Implement user authentication (PHP, MySQL).
+
+
