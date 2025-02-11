@@ -22,19 +22,18 @@ A **unified portal for model curriculum** designed for **all AICTE-approved inst
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
+```
 project-folder/
-│── index.php               # Homepage
-│── dashboard.php           # Main user dashboard
-│── login.php               # User authentication
-│── register.php            # Signup page
-│── config.php              # Database connection
-│── assets/                 # CSS, TailwindCSS, images
-│── uploads/                # PDF/doc storage
-│── db/		                  # database files
-│── stepsToSyllabiSync.txt      #info to create project
-└── SyllabiSync.txt             #about project
-
+│── index.php         # Homepage
+│── dashboard.php     # Main user dashboard
+│── login.php         # User authentication
+│── register.php      # Signup page
+│── config.php        # Database connection
+│── assets/           # CSS, TailwindCSS, images
+│── uploads/          # PDF/doc storage
+└── db/               # Database files
+```
 
 ---
 
@@ -53,7 +52,6 @@ Import db/aicte_portal.sql into MySQL
 3️⃣ **Run the project locally**
 
 Start a local server (XAMPP, MAMP, or built-in PHP server)
-Open browser and go to:
 ```sh
 http://localhost/SyllabiSync/
 ```
