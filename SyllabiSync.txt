@@ -53,3 +53,5 @@ File Handling		PHP (for uploading & retrieving docs/PDFs)
 👉 Start with a basic login system in PHP.
 👉 Design the dashboard UI with TailwindCSS.
 👉 Implement CRUD for curricula.
+
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
