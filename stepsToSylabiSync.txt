@@ -51,7 +51,7 @@ Start small! Build a simple login/register system using PHP & MySQL.
 🔹 Day 2: Implement user authentication (PHP, MySQL).
 
 
-DAY 1: Login page
-DAY 2: Registration Page
-DAY 3: Implementing Session Management & User Authentication
-DAY 4: Building the Dashboard & Navigation
+GOAL 1: Login page
+GOAL 2: Registration Page
+GOAL 3: Implementing Session Management & User Authentication
+GOAL 4: Building the Dashboard & Navigation
