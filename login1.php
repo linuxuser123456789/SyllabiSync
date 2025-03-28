@@ -17,6 +17,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $errors['password'] = 'Password is required';
     }
 
+
+    
     // If no validation errors, attempt login
     if (empty($errors)) {
         try {
